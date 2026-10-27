@@ -1,0 +1,12 @@
+{
+  "source": "reimported binary STL",
+  "dimensions_mm": [
+    39.99632263183594,
+    39.99632263183594,
+    53.0
+  ],
+  "triangles": 850460,
+  "connected_shells": 1,
+  "non_manifold_edges": 0,
+  "signed_volume_mm3": 11661.85112631419
+}

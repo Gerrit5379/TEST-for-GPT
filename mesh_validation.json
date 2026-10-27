@@ -1,0 +1,12 @@
+{
+  "dimensions_mm": [
+    39.99632263183594,
+    39.99632263183594,
+    53.0
+  ],
+  "vertices": 425168,
+  "faces": 472750,
+  "connected_shells": 1,
+  "non_manifold_edges": 0,
+  "volume_mm3": 11661.610984757332
+}
