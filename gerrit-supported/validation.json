@@ -1,0 +1,185 @@
+{
+  "slicer": "Creality Print 7.3.0.6157",
+  "source_triangle_count": 2744599,
+  "physically_tested": false,
+  "sizes": {
+    "76": {
+      "name": "76_project",
+      "slicer": "Creality Print 7.3.0.6157",
+      "slice_success": true,
+      "time": "19h 28m 18s",
+      "total_mass_g": 46.82,
+      "support_mass_g": 15.392387403174999,
+      "support_path_count_sampled": 7901,
+      "extrusion_length_by_role_mm": {
+        "Custom": 45.0,
+        "Skirt": 19.481459999999995,
+        "Support": 4620.046670001371,
+        "Brim": 31.28718999999994,
+        "Outer wall": 2529.7286200008275,
+        "Inner wall": 3863.9717300017132,
+        "Bottom surface": 190.40799999999987,
+        "Gap infill": 4.266410000000002,
+        "Internal solid infill": 1973.8883100001315,
+        "Sparse infill": 1447.5662500000337,
+        "Internal Bridge": 284.71918999999997,
+        "Top surface": 127.32197000000002,
+        "Support interface": 540.7686900001529,
+        "Overhang wall": 15.616010000000028,
+        "Bridge": 18.537160000000007
+      },
+      "printed_toolpath_bounds": [
+        [
+          109.29,
+          110.791,
+          0.2
+        ],
+        [
+          191.839,
+          191.957,
+          76.04
+        ]
+      ],
+      "effective_settings": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_style": "organic",
+        "support_top_z_distance": "0.24",
+        "support_bottom_z_distance": "0.24",
+        "support_object_xy_distance": "0.4",
+        "support_threshold_angle": "35",
+        "tree_support_branch_distance_organic": "2",
+        "tree_support_branch_diameter_angle": "2",
+        "support_interface_top_layers": "3",
+        "support_interface_spacing": "0.35",
+        "support_on_build_plate_only": "0",
+        "layer_height": "0.12",
+        "wall_loops": "3",
+        "printer_settings_id": "Creality CR-10S Pro V2 0.4 nozzle",
+        "filament_settings_id": "\"Gerrit standard PLA 200C\"",
+        "nozzle_temperature": "200",
+        "nozzle_temperature_initial_layer": "205",
+        "hot_plate_temp": "60",
+        "curr_bed_type": "High Temp Plate",
+        "reduce_crossing_wall": "0"
+      },
+      "support_mass_reduction_vs_5degree_trunks_percent": 33.92995781374641,
+      "project_sha256": "9ff8e6aad562c798746a428a699e77280dd3bbea8fb1c09cd216e8315e8a519b",
+      "runner_result": {
+        "error_string": "Success.",
+        "export_time": 0,
+        "plate_index": 0,
+        "prepare_time": 4,
+        "return_code": 0,
+        "sliced_plates": [
+          {
+            "id": 1,
+            "sliced_time": 89,
+            "sliced_time_with_cache": 9,
+            "triangle_count": 2744599,
+            "warning_message": ""
+          }
+        ]
+      }
+    },
+    "152": {
+      "name": "152_project",
+      "slicer": "Creality Print 7.3.0.6157",
+      "slice_success": true,
+      "time": "3d 8h 4m 45s",
+      "total_mass_g": 239.55,
+      "support_mass_g": 69.97308887558995,
+      "support_path_count_sampled": 30544,
+      "extrusion_length_by_role_mm": {
+        "Custom": 45.0,
+        "Skirt": 33.594739999999994,
+        "Support": 21610.3822099777,
+        "Brim": 81.7718400000001,
+        "Outer wall": 10392.280609996029,
+        "Inner wall": 19568.882049993153,
+        "Bottom surface": 802.8459700000018,
+        "Gap infill": 18.626169999999973,
+        "Internal solid infill": 9094.621939995495,
+        "Sparse infill": 14823.106249988086,
+        "Internal Bridge": 1285.1408899999963,
+        "Top surface": 544.0300799999993,
+        "Support interface": 1850.4482900010348,
+        "Overhang wall": 74.01772000000038,
+        "Bridge": 105.94621000000002
+      },
+      "printed_toolpath_bounds": [
+        [
+          77.762,
+          83.968,
+          0.2
+        ],
+        [
+          223.138,
+          219.933,
+          152.0
+        ]
+      ],
+      "effective_settings": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_style": "organic",
+        "support_top_z_distance": "0.24",
+        "support_bottom_z_distance": "0.24",
+        "support_object_xy_distance": "0.4",
+        "support_threshold_angle": "35",
+        "tree_support_branch_distance_organic": "2",
+        "tree_support_branch_diameter_angle": "2",
+        "support_interface_top_layers": "3",
+        "support_interface_spacing": "0.35",
+        "support_on_build_plate_only": "0",
+        "layer_height": "0.12",
+        "wall_loops": "3",
+        "printer_settings_id": "Creality CR-10S Pro V2 0.4 nozzle",
+        "filament_settings_id": "\"Gerrit standard PLA 200C\"",
+        "nozzle_temperature": "200",
+        "nozzle_temperature_initial_layer": "205",
+        "hot_plate_temp": "60",
+        "curr_bed_type": "High Temp Plate",
+        "reduce_crossing_wall": "0"
+      },
+      "support_mass_reduction_vs_5degree_trunks_percent": 29.07759858443384,
+      "project_sha256": "068b25bd8b36df1c8787510925accb1684bdf078398eccce7091735b37f5ff9f",
+      "runner_result": {
+        "error_string": "Success.",
+        "export_time": 0,
+        "plate_index": 0,
+        "prepare_time": 5,
+        "return_code": 0,
+        "sliced_plates": [
+          {
+            "id": 1,
+            "sliced_time": 189,
+            "sliced_time_with_cache": 17,
+            "triangle_count": 2744599,
+            "warning_message": ""
+          }
+        ]
+      }
+    }
+  },
+  "comparisons_76mm": [
+    {
+      "name": "76_organic_any",
+      "time": "20h 21m 56s",
+      "total_mass_g": 55.77,
+      "support_mass_g": 24.333228012110773
+    },
+    {
+      "name": "76_organic_bed",
+      "time": "19h 27m 19s",
+      "total_mass_g": 53.99,
+      "support_mass_g": 22.61763480478433
+    },
+    {
+      "name": "76_slim_any",
+      "time": "19h 30m 9s",
+      "total_mass_g": 54.58,
+      "support_mass_g": 23.12443287112017
+    }
+  ]
+}
