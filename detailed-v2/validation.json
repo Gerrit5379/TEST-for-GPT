@@ -1,0 +1,11 @@
+{
+  "dimensions_mm": [
+    39.997745513916016,
+    39.997745513916016,
+    53.0
+  ],
+  "connected_shells": 1,
+  "non_manifold_edges": 0,
+  "signed_volume_mm3": 10663.512151461386,
+  "faces": 1012607
+}
