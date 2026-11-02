@@ -1,0 +1,143 @@
+{
+  "slicer": "Creality Print 7.3.0.6157",
+  "physically_tested": false,
+  "sizes": {
+    "76": {
+      "runner": {
+        "error_string": "Success.",
+        "export_time": 0,
+        "plate_index": 0,
+        "prepare_time": 5,
+        "return_code": 0,
+        "sliced_plates": [
+          {
+            "id": 1,
+            "sliced_time": 445,
+            "sliced_time_with_cache": 20,
+            "triangle_count": 2744599,
+            "warning_message": ""
+          }
+        ]
+      },
+      "effective_settings": {
+        "nozzle_diameter": "0.2",
+        "layer_height": "0.06",
+        "initial_layer_print_height": "0.12",
+        "line_width": "0.22",
+        "outer_wall_line_width": "0.22",
+        "inner_wall_line_width": "0.22",
+        "top_surface_line_width": "0.22",
+        "support_line_width": "0.22",
+        "wall_loops": "4",
+        "enable_support": "1",
+        "support_style": "organic",
+        "support_top_z_distance": "0.16",
+        "support_object_xy_distance": "0.25",
+        "tree_support_tip_diameter": "0.6",
+        "tree_support_wall_count": "2",
+        "tree_support_branch_diameter_angle": "2",
+        "filament_max_volumetric_speed": "1.5",
+        "nozzle_temperature": "200",
+        "nozzle_temperature_initial_layer": "205",
+        "reduce_crossing_wall": "0",
+        "min_layer_height": "0.04",
+        "max_layer_height": "0.12",
+        "printer_variant": "0.2"
+      },
+      "time_estimate": "2d 8h 17m 26s",
+      "pla_grams_estimate": 37.2,
+      "gcode_bytes": 203244625,
+      "project_sha256": "25e58bff3a9cad03a52296efde36a51a74f2aa7416a7f51b6173c70311a2d5e5",
+      "geometry_sha256_unchanged_from_previous_project": "b732611e8a938b3bcf1888a0c56e7f09f6553a903cf954422c632007765bb3d6"
+    },
+    "152": {
+      "runner": {
+        "error_string": "Success.",
+        "export_time": 0,
+        "plate_index": 0,
+        "prepare_time": 5,
+        "return_code": 0,
+        "sliced_plates": [
+          {
+            "id": 1,
+            "sliced_time": 1081,
+            "sliced_time_with_cache": 70,
+            "triangle_count": 2744599,
+            "warning_message": ""
+          }
+        ]
+      },
+      "effective_settings": {
+        "nozzle_diameter": "0.2",
+        "layer_height": "0.06",
+        "initial_layer_print_height": "0.12",
+        "line_width": "0.22",
+        "outer_wall_line_width": "0.22",
+        "inner_wall_line_width": "0.22",
+        "top_surface_line_width": "0.22",
+        "support_line_width": "0.22",
+        "wall_loops": "4",
+        "enable_support": "1",
+        "support_style": "organic",
+        "support_top_z_distance": "0.16",
+        "support_object_xy_distance": "0.25",
+        "tree_support_tip_diameter": "0.6",
+        "tree_support_wall_count": "2",
+        "tree_support_branch_diameter_angle": "2",
+        "filament_max_volumetric_speed": "1.5",
+        "nozzle_temperature": "200",
+        "nozzle_temperature_initial_layer": "205",
+        "reduce_crossing_wall": "0",
+        "min_layer_height": "0.04",
+        "max_layer_height": "0.12",
+        "printer_variant": "0.2"
+      },
+      "time_estimate": "9d 22h 20m 13s",
+      "pla_grams_estimate": 184.65,
+      "gcode_bytes": 846802428,
+      "project_sha256": "cbef2a305c62953a889fc135787f8896ef90a4c0908b52dc31634f7eb210cbf6",
+      "geometry_sha256_unchanged_from_previous_project": "753dc46d3aa9e24f60f0d1c942817802edfe4eb3bfbd05e24bf88dd476d019b2"
+    }
+  },
+  "optional_ultra_preset": {
+    "layer_height_mm": 0.04,
+    "check": "10 mm cube sliced and G-code exported successfully; full character not sliced with this optional preset",
+    "runner": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "plate_index": 0,
+      "prepare_time": 0,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "id": 1,
+          "sliced_time": 0,
+          "sliced_time_with_cache": 0,
+          "triangle_count": 12,
+          "warning_message": ""
+        }
+      ]
+    }
+  },
+  "support_test": {
+    "runner": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "plate_index": 0,
+      "prepare_time": 3,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "id": 1,
+          "sliced_time": 1,
+          "sliced_time_with_cache": 0,
+          "triangle_count": 72,
+          "warning_message": ""
+        }
+      ]
+    },
+    "time_estimate": "1h 29m 43s",
+    "pla_grams_estimate": 1.27,
+    "project_sha256": "7e0a968b7c24ae064329d14f121caeb192b3e684a790100d3b73ab012fd5e1e1"
+  }
+}
