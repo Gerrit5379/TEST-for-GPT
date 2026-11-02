@@ -1,3 +1,5 @@
+> **76 mm SUNLU PLA+ / textured PEI update:** [Revision 2 projects](../gerrit-02mm-rev2/README.md) target the reported stringing and brim adhesion issues. The original files remain below for comparison.
+
 # Gerrit — 0.2 mm nozzle, fine-detail Creality Print projects
 
 For **Creality CR-10S Pro V2, 0.2 mm nozzle, standard PLA**, retaining the original
