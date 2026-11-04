@@ -1,0 +1,115 @@
+{
+  "selection": "8 small support-enforcer regions; manual tree mode; explicit blockers on fine detail",
+  "anchors": [
+    {
+      "name": "weapon pommel, lowest solid end",
+      "center_mm": [
+        23.94,
+        -3.12,
+        16.683
+      ],
+      "selection_radius_mm": 0.85,
+      "painted_triangles": 464,
+      "surface_area_mm2": 1.7672494649887085
+    },
+    {
+      "name": "hammer underside, left solid flange",
+      "center_mm": [
+        21.36,
+        -4.16,
+        55.28
+      ],
+      "selection_radius_mm": 0.85,
+      "painted_triangles": 283,
+      "surface_area_mm2": 1.3314952850341797
+    },
+    {
+      "name": "hammer underside, right solid flange",
+      "center_mm": [
+        29.12,
+        -4.07,
+        55.45
+      ],
+      "selection_radius_mm": 0.85,
+      "painted_triangles": 562,
+      "surface_area_mm2": 2.15952205657959
+    },
+    {
+      "name": "right elbow, broad rear underside",
+      "center_mm": [
+        20.17,
+        6.86,
+        39.83
+      ],
+      "selection_radius_mm": 1.0,
+      "painted_triangles": 646,
+      "surface_area_mm2": 0.8388923406600952
+    },
+    {
+      "name": "hanging lantern, solid bottom cap",
+      "center_mm": [
+        -16.5,
+        -14.06,
+        19.743
+      ],
+      "selection_radius_mm": 0.8,
+      "painted_triangles": 102,
+      "surface_area_mm2": 0.4349331259727478
+    },
+    {
+      "name": "front cloth hem, broad underside",
+      "center_mm": [
+        3.69,
+        -7.88,
+        24.98
+      ],
+      "selection_radius_mm": 0.95,
+      "painted_triangles": 709,
+      "surface_area_mm2": 1.5335958003997803
+    },
+    {
+      "name": "rear coat hem, left",
+      "center_mm": [
+        -2.66,
+        13.17,
+        20.55
+      ],
+      "selection_radius_mm": 0.95,
+      "painted_triangles": 694,
+      "surface_area_mm2": 1.6152089834213257
+    },
+    {
+      "name": "rear coat hem, right",
+      "center_mm": [
+        9.02,
+        16.51,
+        19.22
+      ],
+      "selection_radius_mm": 0.95,
+      "painted_triangles": 889,
+      "surface_area_mm2": 1.8240737915039062
+    }
+  ],
+  "enforced_triangles": 4349,
+  "blocked_triangles": 1824153,
+  "total_enforced_surface_area_mm2": 11.50497055053711,
+  "profile_changes": {
+    "support_type": "tree(manual)",
+    "support_style": "organic",
+    "support_top_z_distance": "0.24",
+    "support_bottom_z_distance": "0.24",
+    "support_object_xy_distance": "0.45",
+    "support_interface_top_layers": "2",
+    "support_interface_bottom_layers": "2",
+    "support_interface_spacing": "0.45",
+    "support_bottom_interface_spacing": "0.5",
+    "tree_support_tip_diameter": "0.5",
+    "tree_support_branch_diameter_organic": "1.6",
+    "tree_support_wall_count": "1",
+    "tree_support_branch_diameter_double_wall": "5",
+    "minimum_support_area": "0",
+    "support_critical_regions_only": "0",
+    "support_remove_small_overhang": "1"
+  },
+  "source_geometry_sha256": "59a895d9b5d5d3589708410e83ea0467379dcb937942120c6fc1cc45f7d97524"
+}

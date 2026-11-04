@@ -1,0 +1,144 @@
+{
+  "project_sha256": "74fb910f3190e616b6d858e783c297fbf6d11abe731ac8ad5a577dd9e824e648",
+  "geometry_xml_identical_after_removing_paint_attributes": true,
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "plate_index": 0,
+    "prepare_time": 6,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "id": 1,
+        "sliced_time": 76,
+        "sliced_time_with_cache": 9,
+        "triangle_count": 2744599,
+        "warning_message": ""
+      }
+    ]
+  },
+  "new_metrics": {
+    "name": "/workspace/support-minimal/slice",
+    "slicer": "Creality Print 7.3.0.6157",
+    "slice_success": true,
+    "time": "1d 14h 36m 39s",
+    "total_mass_g": 26.51,
+    "support_mass_g": 0.654021274231787,
+    "support_path_count_sampled": 1186,
+    "extrusion_length_by_role_mm": {
+      "Custom": 45.0,
+      "Skirt": 5.426619999999997,
+      "Support": 213.5764899999978,
+      "Brim": 70.44556999999988,
+      "Outer wall": 1354.79188000102,
+      "Inner wall": 3348.3467700039077,
+      "Bottom surface": 119.21680999999994,
+      "Gap infill": 3.588290000000001,
+      "Internal solid infill": 1915.8273800013162,
+      "Sparse infill": 1585.975479999941,
+      "Internal Bridge": 151.32345999999902,
+      "Top surface": 65.97464000000016,
+      "Overhang wall": 8.93908000000001,
+      "Bridge": 10.820390000000003,
+      "Support interface": 5.70613
+    },
+    "printed_toolpath_bounds": [
+      [
+        112.34,
+        111.405,
+        0.12
+      ],
+      [
+        191.465,
+        188.597,
+        76.02
+      ]
+    ],
+    "effective_settings": {
+      "enable_support": "1",
+      "support_type": "tree(manual)",
+      "support_style": "organic",
+      "support_top_z_distance": "0.24",
+      "support_bottom_z_distance": "0.24",
+      "support_object_xy_distance": "0.45",
+      "support_threshold_angle": "35",
+      "tree_support_branch_distance_organic": "1.5",
+      "tree_support_branch_diameter_angle": "2",
+      "support_interface_top_layers": "2",
+      "support_interface_spacing": "0.45",
+      "support_on_build_plate_only": "0",
+      "layer_height": "0.06",
+      "wall_loops": "4",
+      "printer_settings_id": "CR-10S Pro V2 0.2 mm - SUNLU R2",
+      "filament_settings_id": "\"SUNLU PLA+ R2 - 200C\"",
+      "nozzle_temperature": "200",
+      "nozzle_temperature_initial_layer": "205",
+      "hot_plate_temp": "60",
+      "curr_bed_type": "Textured PEI Plate",
+      "reduce_crossing_wall": "0"
+    }
+  },
+  "previous_R2_metrics": {
+    "name": "/workspace/support-02-sunlu/slices/76_project",
+    "slicer": "Creality Print 7.3.0.6157",
+    "slice_success": true,
+    "time": "2d 13h 40m 56s",
+    "total_mass_g": 37.28,
+    "support_mass_g": 11.492047737681126,
+    "support_path_count_sampled": 18368,
+    "extrusion_length_by_role_mm": {
+      "Custom": 45.0,
+      "Skirt": 5.55215,
+      "Support": 3478.396319999645,
+      "Brim": 46.40365999999991,
+      "Outer wall": 1354.79188000102,
+      "Inner wall": 3348.3467700039077,
+      "Bottom surface": 119.21680999999994,
+      "Gap infill": 3.588290000000001,
+      "Internal solid infill": 1915.8273800013162,
+      "Sparse infill": 1585.975479999941,
+      "Internal Bridge": 151.32345999999902,
+      "Top surface": 65.97464000000016,
+      "Support interface": 374.6990400003223,
+      "Overhang wall": 8.93908000000001,
+      "Bridge": 10.820390000000003
+    },
+    "printed_toolpath_bounds": [
+      [
+        110.516,
+        111.405,
+        0.12
+      ],
+      [
+        191.632,
+        189.337,
+        76.02
+      ]
+    ],
+    "effective_settings": {
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_style": "organic",
+      "support_top_z_distance": "0.16",
+      "support_bottom_z_distance": "0.16",
+      "support_object_xy_distance": "0.25",
+      "support_threshold_angle": "35",
+      "tree_support_branch_distance_organic": "1.5",
+      "tree_support_branch_diameter_angle": "2",
+      "support_interface_top_layers": "4",
+      "support_interface_spacing": "0.22",
+      "support_on_build_plate_only": "0",
+      "layer_height": "0.06",
+      "wall_loops": "4",
+      "printer_settings_id": "CR-10S Pro V2 0.2 mm - SUNLU R2",
+      "filament_settings_id": "\"SUNLU PLA+ R2 - 200C\"",
+      "nozzle_temperature": "200",
+      "nozzle_temperature_initial_layer": "205",
+      "hot_plate_temp": "60",
+      "curr_bed_type": "Textured PEI Plate",
+      "reduce_crossing_wall": "0"
+    }
+  },
+  "support_mass_reduction_percent": 94.30892309916774,
+  "physical_print_tested": false
+}
