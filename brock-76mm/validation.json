@@ -1,0 +1,146 @@
+{
+  "model": "Brock",
+  "height_mm": 76,
+  "source_obj_sha256": "8ec495a6517831459664b80764ba4b8446cfa4942156968572f8fea1b3d812ed",
+  "source_reassembled_bytes": 88433746,
+  "source_inspection": {
+    "objects": [
+      {
+        "name": "Cylinder",
+        "vertices": 64,
+        "faces": 34,
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "components": 1,
+        "largest_components_vertices": [
+          64
+        ]
+      },
+      {
+        "name": "Mesh_0",
+        "vertices": 598460,
+        "faces": 1196996,
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "components": 1,
+        "largest_components_vertices": [
+          598460
+        ]
+      }
+    ],
+    "bounds_min": [
+      -0.6960610151290894,
+      -0.672916054725647,
+      -1.0235220193862915
+    ],
+    "bounds_max": [
+      0.6964899897575378,
+      0.504258930683136,
+      0.951445996761322
+    ],
+    "dimensions_units": [
+      1.3925509452819824,
+      1.1771750450134277,
+      1.9749679565429688
+    ]
+  },
+  "source_geometry_preserved_except_uniform_scale_translation_and_triangulation": true,
+  "maximum_vertex_rounding_error_mm": 5.000000005139782e-07,
+  "vertices": 598524,
+  "triangles": 1197120,
+  "bounds_mm": [
+    [
+      -26.7938175201416,
+      -22.649810791015625,
+      0.0
+    ],
+    [
+      26.7938175201416,
+      22.649810791015625,
+      76.0
+    ]
+  ],
+  "paint_state_triangle_counts": {
+    "4": 4872,
+    "8": 1192248
+  },
+  "project_sha256": "a232d8dd7fe6f1a00e3b7afba97da2e7f28e4bbc69afe885c868bcc47a79be6a",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "plate_index": 0,
+    "prepare_time": 3,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "id": 1,
+        "sliced_time": 49,
+        "sliced_time_with_cache": 6,
+        "triangle_count": 1197120,
+        "warning_message": ""
+      }
+    ]
+  },
+  "gcode_metrics": {
+    "name": "/workspace/brock-supports/slice",
+    "slicer": "Creality Print 7.3.0.6157",
+    "slice_success": true,
+    "time": "1d 3h 20m 21s",
+    "total_mass_g": 17.62,
+    "support_mass_g": 1.4730496254463152,
+    "support_path_count_sampled": 2647,
+    "extrusion_length_by_role_mm": {
+      "Custom": 45.0,
+      "Skirt": 4.71279,
+      "Support": 482.12277000014967,
+      "Brim": 38.488849999999914,
+      "Outer wall": 896.3363400004639,
+      "Inner wall": 2160.683560002269,
+      "Bottom surface": 73.94288999999996,
+      "Gap infill": 2.7329200000000013,
+      "Internal solid infill": 1624.1695100011136,
+      "Sparse infill": 422.97081000010814,
+      "Internal Bridge": 105.31173999999986,
+      "Top surface": 41.22683999999998,
+      "Bridge": 7.9186499999999995,
+      "Support interface": 11.766640000000029,
+      "Overhang wall": 5.469840000000008
+    },
+    "printed_toolpath_bounds": [
+      [
+        117.272,
+        115.998,
+        0.12
+      ],
+      [
+        183.812,
+        182.674,
+        76.02
+      ]
+    ],
+    "effective_settings": {
+      "enable_support": "1",
+      "support_type": "tree(manual)",
+      "support_style": "organic",
+      "support_top_z_distance": "0.24",
+      "support_bottom_z_distance": "0.24",
+      "support_object_xy_distance": "0.45",
+      "support_threshold_angle": "35",
+      "tree_support_branch_distance_organic": "1.5",
+      "tree_support_branch_diameter_angle": "2",
+      "support_interface_top_layers": "2",
+      "support_interface_spacing": "0.45",
+      "support_on_build_plate_only": "0",
+      "layer_height": "0.06",
+      "wall_loops": "4",
+      "printer_settings_id": "CR-10S Pro V2 0.2 mm - SUNLU R2",
+      "filament_settings_id": "\"SUNLU PLA+ R2 - 200C\"",
+      "nozzle_temperature": "200",
+      "nozzle_temperature_initial_layer": "205",
+      "hot_plate_temp": "60",
+      "curr_bed_type": "Textured PEI Plate",
+      "reduce_crossing_wall": "0"
+    }
+  },
+  "physical_print_tested": false
+}
