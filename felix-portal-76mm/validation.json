@@ -1,0 +1,322 @@
+{
+  "project": "Felix_76mm_0p4_Selective_Supports.3mf",
+  "project_sha256": "8af417dbfbb4ed37a019965c227bb0c0fb0c3a333ba9f884e16cd216470f328a",
+  "slicer": "Creality Print 7.3.0.6157",
+  "source": {
+    "filename": "Felix and portal.obj",
+    "split_parts": 14,
+    "reassembled_bytes": 436346526,
+    "obj_sha256": "697fe8d7e8adc3348555340731fa7d3857467657657ea404fffabc6cb4c5bba5"
+  },
+  "geometry": {
+    "original_foliage_preserved": true,
+    "original_figure_and_portal_preserved": true,
+    "edits": [
+      "Uniform scaling, upright axis conversion and translation",
+      "Source polygons triangulated for 3MF"
+    ],
+    "leaves_pruned_reposed_or_thickened": false,
+    "smoothing_or_decimation": false,
+    "vertices": 2716537,
+    "triangles": 5439054,
+    "bounds_mm": [
+      [
+        -37.14734759816913,
+        -30.15186495696407,
+        0.0
+      ],
+      [
+        37.14734759816913,
+        30.151864956964072,
+        76.0
+      ]
+    ],
+    "height_mm": 76.0,
+    "maximum_coordinate_rounding_error_mm": 5e-07,
+    "model_xml_sha256": "fdde480e7917b13b8c9ead698655343fa513b271c8d587d9065dcfc5d78dcace",
+    "model_and_painting_byte_identical_to_original_leaf_selective_version": true,
+    "source_mesh_topology": [
+      {
+        "name": "dean_portal",
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume_mm3": 53930.53415732767,
+        "component_details": [
+          {
+            "id": 0,
+            "vertices": 1431295,
+            "bounds": [
+              [
+                -37.14734759816913,
+                -30.15186495696407,
+                0.0
+              ],
+              [
+                37.14734759816913,
+                30.151864956964072,
+                76.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "portal",
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components": 2,
+        "signed_volume_mm3": 8080.741673963624,
+        "component_details": [
+          {
+            "id": 0,
+            "vertices": 1285237,
+            "bounds": [
+              [
+                -17.62214258958523,
+                -23.781321981789628,
+                5.02703716791004
+              ],
+              [
+                16.364328372084103,
+                4.71202471025278,
+                63.873661590632075
+              ]
+            ]
+          },
+          {
+            "id": 1,
+            "vertices": 5,
+            "bounds": [
+              [
+                -3.3806806529119653,
+                -11.212464759462444,
+                54.23444693827369
+              ],
+              [
+                -3.346279444205039,
+                -11.196965891305789,
+                54.250472716587055
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "slice_command": "/workspace/tools/creality/run --cli --slice 0 --need-gcode-file --outputdir /workspace/felix-original-delivery/slice /workspace/felix-original-delivery/Felix_76mm_0p4_Selective_Supports.3mf",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "plate_index": 0,
+    "prepare_time": 10,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "id": 1,
+        "sliced_time": 109,
+        "sliced_time_with_cache": 16,
+        "triangle_count": 5439054,
+        "warning_message": ""
+      }
+    ]
+  },
+  "gcode_sha256": "dab6f4152a2d973fd5a50173ee34b735db5a7c2885e94ace1b8e21a46fc08d0a",
+  "executable_gcode_sha256": "cf18abfa2f4afef7e3d1bf4a94d26975ff6b2889f97204f9279bb3d2e27858f1",
+  "executable_gcode_identical_to_earlier_original_leaf_slice": false,
+  "repeat_slice_note": "Original mesh and effective slicer settings match the earlier slice. Organic-tree generation varies slightly between runs; this report and previews use the freshly delivered project slice.",
+  "gcode_metrics": {
+    "layers": 949,
+    "final_z_mm": 76.0,
+    "estimated_time": "1d 14h 49m 47s",
+    "total_mass_g": 51.61,
+    "support_mass_g": 8.964123344981155,
+    "extrusion_length_by_role_mm": {
+      "Custom": 16.0,
+      "Skirt": 14.352430000000002,
+      "Support": 2863.350920003581,
+      "Brim": 68.71886000000043,
+      "Outer wall": 4109.478080004031,
+      "Inner wall": 5275.234370000859,
+      "Bottom surface": 170.52493999999996,
+      "Gap infill": 5.446969999999987,
+      "Internal solid infill": 2200.4416100008884,
+      "Sparse infill": 2243.303480000987,
+      "Internal Bridge": 157.63093999999995,
+      "Top surface": 27.019499999999987,
+      "Overhang wall": 4.953579999999995,
+      "Bridge": 6.86543,
+      "Support interface": 142.17280000001287
+    },
+    "extruding_move_counts": {
+      "Custom": 2,
+      "Skirt": 102,
+      "Support": 695830,
+      "Brim": 1383,
+      "Outer wall": 850564,
+      "Inner wall": 749249,
+      "Bottom surface": 285,
+      "Gap infill": 3836,
+      "Internal solid infill": 222843,
+      "Sparse infill": 350344,
+      "Internal Bridge": 899,
+      "Top surface": 682,
+      "Overhang wall": 2843,
+      "Bridge": 554,
+      "Support interface": 54560
+    },
+    "extruding_toolpath_center_bounds_mm": [
+      [
+        105.513,
+        107.277,
+        0.16
+      ],
+      [
+        188.589,
+        189.891,
+        76.0
+      ]
+    ],
+    "effective_settings": {
+      "printer_settings_id": "CR-10S Pro V2 0.4 mm - SUNLU PLA+ Detail",
+      "nozzle_diameter": "0.4",
+      "filament_settings_id": "\"SUNLU PLA+ - 0.4 Detail 205C\"",
+      "curr_bed_type": "Textured PEI Plate",
+      "layer_height": "0.08",
+      "initial_layer_print_height": "0.16",
+      "line_width": "0.42",
+      "outer_wall_line_width": "0.4",
+      "support_line_width": "0.4",
+      "wall_generator": "arachne",
+      "enable_support": "1",
+      "support_type": "tree(manual)",
+      "support_style": "organic",
+      "support_on_build_plate_only": "1",
+      "support_top_z_distance": "0.24",
+      "support_bottom_z_distance": "0.24",
+      "support_object_xy_distance": "0.5",
+      "support_interface_spacing": "0.45",
+      "support_interface_top_layers": "2",
+      "support_remove_small_overhang": "1",
+      "nozzle_temperature": "205",
+      "nozzle_temperature_initial_layer": "210",
+      "textured_plate_temp": "60",
+      "textured_plate_temp_initial_layer": "65",
+      "filament_max_volumetric_speed": "3",
+      "brim_object_gap": "0.1"
+    }
+  },
+  "supports": {
+    "mode": "manual painted organic trees, build plate only",
+    "painted_regions": 539,
+    "enforcer_triangles": 109491,
+    "blocker_triangles": 5329563,
+    "painted_surface_area_mm2": 258.9990026043006,
+    "total_mesh_surface_area_mm2": 38532.98303353046,
+    "automatic_reference": {
+      "layers": 949,
+      "final_z_mm": 76.0,
+      "estimated_time": "1d 16h 36m 52s",
+      "total_mass_g": 53.73,
+      "support_mass_g": 11.07372688371386,
+      "extrusion_length_by_role_mm": {
+        "Custom": 16.0,
+        "Skirt": 14.269929999999997,
+        "Support": 3419.133250004315,
+        "Brim": 70.92293999999998,
+        "Outer wall": 4109.478080004031,
+        "Inner wall": 5275.234370000859,
+        "Bottom surface": 170.52493999999996,
+        "Gap infill": 5.446969999999987,
+        "Internal solid infill": 2200.4416100008884,
+        "Sparse infill": 2243.303480000987,
+        "Internal Bridge": 157.63093999999995,
+        "Support interface": 293.7059799999948,
+        "Top surface": 27.019499999999987,
+        "Overhang wall": 4.953579999999995,
+        "Bridge": 6.86543
+      },
+      "extruding_move_counts": {
+        "Custom": 2,
+        "Skirt": 101,
+        "Support": 831234,
+        "Brim": 1428,
+        "Outer wall": 850564,
+        "Inner wall": 749249,
+        "Bottom surface": 285,
+        "Gap infill": 3836,
+        "Internal solid infill": 222843,
+        "Sparse infill": 350344,
+        "Internal Bridge": 899,
+        "Support interface": 108952,
+        "Top surface": 682,
+        "Overhang wall": 2843,
+        "Bridge": 554
+      },
+      "extruding_toolpath_center_bounds_mm": [
+        [
+          105.369,
+          107.238,
+          0.16
+        ],
+        [
+          188.388,
+          189.893,
+          76.0
+        ]
+      ],
+      "effective_settings": {
+        "printer_settings_id": "CR-10S Pro V2 0.4 mm - SUNLU PLA+ Detail",
+        "nozzle_diameter": "0.4",
+        "filament_settings_id": "\"SUNLU PLA+ - 0.4 Detail 205C\"",
+        "curr_bed_type": "Textured PEI Plate",
+        "layer_height": "0.08",
+        "initial_layer_print_height": "0.16",
+        "line_width": "0.42",
+        "outer_wall_line_width": "0.4",
+        "support_line_width": "0.4",
+        "wall_generator": "arachne",
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_style": "organic",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.24",
+        "support_bottom_z_distance": "0.24",
+        "support_object_xy_distance": "0.5",
+        "support_interface_spacing": "0.45",
+        "support_interface_top_layers": "2",
+        "support_remove_small_overhang": "1",
+        "nozzle_temperature": "205",
+        "nozzle_temperature_initial_layer": "210",
+        "textured_plate_temp": "60",
+        "textured_plate_temp_initial_layer": "65",
+        "filament_max_volumetric_speed": "3",
+        "brim_object_gap": "0.1"
+      }
+    },
+    "support_mass_reduction_vs_automatic_percent": 19.05052888594625,
+    "selection_method": "Layer-by-layer isolated-start screening and spaced broad underside contacts with ray-tested clearance; other triangles blocked."
+  },
+  "checks": {
+    "delivered_archive_crc_valid": true,
+    "all_original_foliage_retained": true,
+    "original_leaf_geometry_painting_and_placement_preserved": true,
+    "full_mesh_sliced": true,
+    "support_and_interface_paths_exist": true,
+    "effective_printer_nozzle_material_and_plate_verified": true,
+    "949_layers_reach_76mm": true,
+    "printed_paths_with_line_width_fit_build_volume": true,
+    "front_and_rear_support_previews_inspected": true,
+    "fresh_delivered_file_slice_completed": true
+  },
+  "slice_log_diagnostics": {
+    "potential_branch_routing_fallback_messages": 15,
+    "meaning": "The organic-support generator reports possible branch-routing problems on difficult small contacts while attempting fallback routing; these are not proof of successful physical contact or removal. Final slicer warning_message is empty. Generated support views were inspected; physical verification is outstanding."
+  },
+  "physical_print_tested": false,
+  "limitations": [
+    "Some original leaves and ornaments are thinner than the nozzle width.",
+    "Print detail, adhesion, stringing, leaf survival and support release are not physically verified.",
+    "Support previews sample generated toolpaths over the original mesh; they do not simulate printed detail."
+  ]
+}

@@ -33,3 +33,7 @@ To regenerate with Blender 4.3 or newer:
 ```sh
 blender --background --threads 4 --python create_dwarf.py
 ```
+
+## Felix and portal
+
+[76 mm project for CR-10S Pro V2, 0.4 mm nozzle, SUNLU PLA+ and textured PEI](felix-portal-76mm/README.md), with the original foliage and selective support painting.
