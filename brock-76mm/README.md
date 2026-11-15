@@ -1,5 +1,7 @@
 # Brock — 76 mm detail project
 
+**Using a 0.4 mm nozzle?** See the [revised 0.4 mm project and validation](README_0p4.md). This page describes the original 0.2 mm project.
+
 [Open the project file page](https://github.com/Gerrit5379/TEST-for-GPT/blob/main/brock-76mm/Brock_76mm_0p2_Selective_Supports.3mf), then click **Download raw**. Open the downloaded 3MF **as a project** in Creality Print and keep its embedded settings and painting. Slice the plate before printing. Do not change support mode to automatic or import the file as geometry only.
 
 ## Setup

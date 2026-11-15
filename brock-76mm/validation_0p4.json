@@ -1,0 +1,189 @@
+{
+  "project": "Brock_76mm_0p4_Selective_Supports.3mf",
+  "source_project": "Brock_76mm_0p2_Selective_Supports.3mf",
+  "project_sha256": "c0b10ab883bfb57927aee651177f32cb00c448a0e073d4116311b6115831771f",
+  "slicer": "Creality Print 7.3.0.6157",
+  "slice_command": "/workspace/tools/creality/run --cli --slice 0 --need-gcode-file --need-business-report --outputdir /workspace/brock-0p4-validation /workspace/TEST-for-GPT/brock-76mm/Brock_76mm_0p4_Selective_Supports.3mf",
+  "geometry_and_support_painting_byte_identical": true,
+  "model_settings_and_placement_byte_identical": true,
+  "model_xml_sha256": "30682187e6fe64240b268779a27d884b82351b292caca8f9a57a48545eb233cc",
+  "vertices": 598524,
+  "triangles": 1197120,
+  "bounds_mm": [
+    [
+      -26.793818,
+      -22.649811,
+      0.0
+    ],
+    [
+      26.793818,
+      22.649811,
+      76.0
+    ]
+  ],
+  "height_mm": 76.0,
+  "paint_state_triangle_counts": {
+    "8": 1192248,
+    "4": 4872
+  },
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "plate_index": 0,
+    "prepare_time": 3,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "id": 1,
+        "sliced_time": 24,
+        "sliced_time_with_cache": 3,
+        "triangle_count": 1197120,
+        "warning_message": ""
+      }
+    ]
+  },
+  "gcode_sha256": "7fbc6dcc5779ab53124d7c8814285f7a99e4bb35f5d625ae526e8975c83ed4c7",
+  "gcode_metrics": {
+    "layers": 949,
+    "final_layer_z_mm": 76.0,
+    "estimated_time": "14h 27m 51s",
+    "total_mass_g": 21.32,
+    "support_mass_g": 2.2167252050454187,
+    "extrusion_length_by_role_mm": {
+      "Custom": 16.0,
+      "Skirt": 11.579170000000001,
+      "Support": 725.410309999997,
+      "Brim": 59.42678000000006,
+      "Outer wall": 1615.0794800004633,
+      "Inner wall": 2348.0794400011446,
+      "Bottom surface": 95.77654999999987,
+      "Gap infill": 5.981459999999999,
+      "Internal solid infill": 1693.5842500002723,
+      "Sparse infill": 310.3600300000066,
+      "Internal Bridge": 182.49641999999997,
+      "Top surface": 53.48820000000001,
+      "Support interface": 17.821340000000163,
+      "Overhang wall": 3.832170000000005,
+      "Bridge": 10.892870000000018
+    },
+    "extruding_moves_by_role": {
+      "Custom": 2,
+      "Skirt": 107,
+      "Support": 164974,
+      "Brim": 1454,
+      "Outer wall": 273575,
+      "Inner wall": 348306,
+      "Bottom surface": 213,
+      "Gap infill": 3699,
+      "Internal solid infill": 116721,
+      "Sparse infill": 48440,
+      "Internal Bridge": 380,
+      "Top surface": 244,
+      "Support interface": 7376,
+      "Overhang wall": 1441,
+      "Bridge": 998
+    },
+    "extruding_toolpath_center_bounds_mm": [
+      [
+        117.032,
+        117.043,
+        0.16
+      ],
+      [
+        182.951,
+        182.96,
+        76.0
+      ]
+    ],
+    "all_move_bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.16
+      ],
+      [
+        182.951,
+        290.0,
+        86.0
+      ]
+    ],
+    "model_toolpath_center_bounds_mm": [
+      [
+        123.407,
+        127.551,
+        0.16
+      ],
+      [
+        176.586,
+        172.449,
+        76.0
+      ]
+    ],
+    "effective_settings": {
+      "nozzle_diameter": "0.4",
+      "printer_settings_id": "CR-10S Pro V2 0.4 mm - SUNLU PLA+ Detail",
+      "filament_settings_id": "\"SUNLU PLA+ - 0.4 Detail 205C\"",
+      "layer_height": "0.08",
+      "initial_layer_print_height": "0.16",
+      "line_width": "0.42",
+      "outer_wall_line_width": "0.4",
+      "inner_wall_line_width": "0.42",
+      "support_line_width": "0.4",
+      "initial_layer_line_width": "0.45",
+      "wall_loops": "3",
+      "wall_generator": "arachne",
+      "enable_support": "1",
+      "support_type": "tree(manual)",
+      "support_style": "organic",
+      "support_top_z_distance": "0.24",
+      "support_bottom_z_distance": "0.24",
+      "support_object_xy_distance": "0.45",
+      "support_xy_overrides_z": "z_overrides_xy",
+      "support_interface_top_layers": "2",
+      "support_interface_spacing": "0.5",
+      "tree_support_tip_diameter": "0.6",
+      "curr_bed_type": "Textured PEI Plate",
+      "textured_plate_temp": "60",
+      "textured_plate_temp_initial_layer": "65",
+      "nozzle_temperature": "205",
+      "nozzle_temperature_initial_layer": "210",
+      "filament_max_volumetric_speed": "3",
+      "retraction_length": "4.5",
+      "retraction_speed": "35"
+    },
+    "temperature_commands": [
+      "M140 S65",
+      "M104 S150 ;Standby nozzle temperature while probing",
+      "M190 S65",
+      "M109 S210",
+      "M104 S205 ; set nozzle temperature",
+      "M140 S60 ; set bed temperature",
+      "M104 S0",
+      "M140 S0"
+    ]
+  },
+  "checks": {
+    "valid_zip": true,
+    "unchanged_geometry_height_and_paint": true,
+    "full_slice_completed": true,
+    "manual_organic_support_and_interface_paths_exist": true,
+    "extrusions_fit_300x300x400_build_volume": true,
+    "effective_nozzle_material_and_plate_verified": true,
+    "full_height_toolpath": true,
+    "support_front_and_back_previews_inspected": true
+  },
+  "slice_log_notes": "Organic-support engine emitted noncritical placeable-area cache/performance messages; slice returned Success with an empty final warning message.",
+  "physical_print_tested": false,
+  "limitations": [
+    "0.4 mm nozzle cannot reproduce every feature possible with the original 0.2 mm nozzle.",
+    "Temperature, flow, retraction, adhesion, support release and fine-feature survival require physical calibration.",
+    "Support preview shows sampled generated support paths over the unchanged source mesh; it is not a simulation of the printed surface."
+  ],
+  "repeatability": {
+    "reinstalled_with_saved_install_script": true,
+    "second_slice_return_code": 0,
+    "second_slice_final_warning": "",
+    "executable_gcode_identical": true,
+    "executable_gcode_sha256": "24d2632b8f3bbdf9e47cb0147f56256c083460576848adc33e7333a5e423598b"
+  }
+}
